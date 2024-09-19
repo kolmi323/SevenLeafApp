@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SevenApp</string>
+
+    <string name="isConnect_on">connection</string>
+    <string name="isConnect_off">connection off</string>
+    <string name="istConnect_on">not connection</string>
+    <string name="istConnect_off">not connection off</string>
+    <string name="indicateMenu_on">indicate</string>
+    <string name="indicateMenu_off">indicate off</string>
+    <string name="setting_on">setting</string>
+    <string name="setting_off">setting off</string>
+
+    <string name="connect_activity">connect layout</string>
+    <string name="ip_text">enter your IP</string>
+    <string name="connect_text_button">CONNECTION</string>
+
+    <string name="home_activity">home layout</string>
+    <string name="user_name_plant">name plant</string>
+    <string name="type_plant">type plant</string>
+    <string name="category_plant">category plant</string>
+    <string name="info_text_climate_condition">Климатические условия:</string>
+    <string name="climate_condition">climate condition</string>
+    <string name="temperature_range">Диапазон температур</string>
+    <string name="min">min</string>
+    <string name="max">max</string>
+    <string name="cur">cur</string>
+    <string name="light_intensity">Интенсивность света</string>
+    <string name="info_text_soil_moisture">Влажность почвы:</string>
+    <string name="soil_moisture">soil moisture</string>
+    <string name="info_text_soil_nutrients">Питательные вещества почвы:</string>
+    <string name="soil_nutrients">soil nutrients</string>
+
+
+    <string name="setting_activity">setting layout</string>
+    <string name="change_setting_text_button">CHANGE</string>
+
+    <string name="setting_changer_activity">setting changer</string>
+    <string name="save_button">save changer</string>
+    <string name="back_to_setting_button">BACK</string>
+
+    <string name="type_plant_item_button">type plant</string>
+</resources>
