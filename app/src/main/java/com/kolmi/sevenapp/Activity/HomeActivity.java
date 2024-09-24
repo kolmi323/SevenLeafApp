@@ -48,31 +48,35 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         temp.setText(setting.getUserNamePlant());
 
         temp = findViewById(R.id.type_plant);
-        temp.setText(plant.getTypePlant());
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.TYPE));
 
         temp = findViewById(R.id.category_plant);
-        temp.setText(plant.getCategory());
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.CATEGORY));
 
         temp = findViewById(R.id.climate_condition);
-        temp.setText(plant.getClimateCondition());
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.CLIMATE_CONDITION));
 
         temp = findViewById(R.id.min_temperature_range);
-        temp.setText(plant.getTemperatureRange().split("-")[0]);
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.TEMPERATURE_RANGE)
+                .split("-")[0]);
 
         temp = findViewById(R.id.max_temperature_range);
-        temp.setText(plant.getTemperatureRange().split("-")[1]);
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.TEMPERATURE_RANGE)
+                .split("-")[1]);
 
         temp = findViewById(R.id.min_light_intensity);
-        temp.setText(plant.getLightIntensity().split("-")[0]);
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.LIGHT_INTENSITY)
+                .split("-")[0]);
 
         temp = findViewById(R.id.max_light_intensity);
-        temp.setText(plant.getLightIntensity().split("-")[1]);
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.LIGHT_INTENSITY)
+                .split("-")[1]);
 
         temp = findViewById(R.id.soil_moisture);
-        temp.setText(plant.getSoilMoisture());
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.SOIL_MOISTURE));
 
         temp = findViewById(R.id.soil_nutrients);
-        temp.setText(plant.getSoilNutrients());
+        temp.setText(plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.SOIL_NUTRIENTS));
     }
 
     @Override
