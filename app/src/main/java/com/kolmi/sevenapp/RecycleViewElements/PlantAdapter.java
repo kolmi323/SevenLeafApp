@@ -31,7 +31,8 @@ public class PlantAdapter extends RecyclerView.Adapter<PlantViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull PlantViewHolder holder, int position) {
-        holder.buttonTypePlant.setText(plants.get(position).getTypePlant());
+        holder.buttonTypePlant.setText(plants.get(position).
+                getInfoCategoryPlant(Plant.InfoCategoryPlant.TYPE));
     }
 
     @Override

@@ -74,7 +74,7 @@ public class SettingChangerActivity extends AppCompatActivity implements View.On
 
     public void findAndSavePlant(ArrayList<Plant> plants, String typePlant) {
         for (Plant plant : plants) {
-            if (plant.getTypePlant().equals(typePlant)) {
+            if (plant.getInfoCategoryPlant(Plant.InfoCategoryPlant.TYPE).equals(typePlant)) {
                 setting.setPlatInfo(plant.getPlantInfo());
                 break;
             }
